@@ -1,0 +1,28 @@
+const a = require('./moda');
+const b = require('./modb');
+const c = require('./modc');
+const d = require("./modd");
+const e = require('./mode');
+const f = require("./modf");
+const modg = require('./modg');
+var modgg = new modg.modg();
+console.log(a.aa);
+console.log(b.calcRoot(2));
+console.log(c.calcLog(100));
+console.log(d.calcPow(21));
+const obj = new e.Person("Ganesh", "ganesh@yahoo.com");
+console.log(JSON.stringify(obj));
+const cObj = new f.Cars("Octavio", "Skoda");
+console.log(JSON.stringify(cObj));
+modgg.dline();
+modgg.ffa();
+modgg.funa();
+modgg.funb();
+modgg.dline();
+console.log(modgg.calcHypo(1, 2));
+const book = new modgg.Books("Adventures of tom sawyer", "mark twain");
+const libr = new modgg.Library("University library", "JNU New Delhi");
+console.log(JSON.stringify(book));
+console.log(JSON.stringify(libr));
+(modgg.ffb());
+
